@@ -1,0 +1,707 @@
+{
+  "intents": [
+    {
+      "tag": "köszönés",
+      "patterns": [
+        "Helló!",
+        "Szia!",
+        "Üdv!",
+        "Jó napot!",
+        "Szép napot!",
+        "Szia, hogy vagy?",
+        "Hogy vagy ma?",
+        "Szia, mi újság?",
+        "Hé, itt vagy?",
+        "Szia, mi a helyzet?",
+        "Jó reggelt!",
+        "Jó estét!",
+        "Szia, hogy érzed magad?",
+        "Szia, itt vagy?",
+        "Szia, mi a helyzet?",
+        "Szia, hogy vagy mostanában?",
+        "Üdvözöllek!",
+        "Üdv, itt vagy?",
+        "Szia, hogy megy ma?",
+        "Szia, minden rendben?"
+      ],
+      "responses": [
+        "Szia! Hogy vagy?",
+        "Helló! Miben segíthetek?",
+        "Üdv! Hogy érzed magad?",
+        "Szia, örülök, hogy itt vagy!",
+        "Helló! Mi járatban vagy?",
+        "Szia! Miben segíthetek neked ma?"
+      ]
+    },
+    {
+     "tag": "elköszönés",
+     "patterns": [
+        "Viszlát!",
+        "Sziasztok!",
+        "Jó éjt!",
+        "Elköszönök!",
+        "Na, szia!",
+        "Legyen szép napod!",
+        "Viszlát, később találkozunk!",
+        "Viszlát, majd beszélünk!",
+        "Szia, vigyázz magadra!",
+        "Elbúcsúzom.",
+        "Minden jót!",
+        "Szép napot!",
+        "Szép estét!",
+        "Szia, vigyázz magadra!",
+        "Viszlát, remélem, hamarosan találkozunk!",
+        "Viszlát, örültem, hogy beszéltünk!",
+        "Legyen szép napod!",
+        "Szia, találkozunk később!",
+        "Viszlát, vigyázz magadra!",
+        "Köszönöm, szia!"
+      ],
+      "responses": [
+        "Viszlát! Szép napot!",
+        "Szia! Vigyázz magadra!",
+        "Viszlát! Remélem, hamarosan újra találkozunk!",
+        "Jó éjszakát! Szép álmokat!",
+        "Viszlát! Öröm volt beszélgetni!",
+        "Viszlát! Szép estét kívánok!"
+      ]
+    },
+    {
+      "tag": "köszönet",
+      "patterns": [
+        "Köszönöm!",
+        "Nagyon köszönöm!",
+        "Hálás vagyok!",
+        "Köszönet érte!",
+        "Ez nagyon kedves tőled!",
+        "Köszi!",
+        "Nagyon hálás vagyok!",
+        "Köszi szépen!",
+        "Hálásan köszönöm!",
+        "Ez sokat segített!",
+        "Köszönet!",
+        "Köszönöm szépen!",
+        "Nagyon köszönöm a segítségedet!",
+        "Köszönet mindenért!",
+        "Ez nagy segítség volt!",
+        "Köszönöm a segítséget!",
+        "Hálásan köszönöm a támogatást!",
+        "Nagyon köszönöm a válaszodat!",
+        "Köszönöm, igazán segítőkész vagy!",
+        "Köszi, ez sokat jelent nekem!"
+      ],
+      "responses": [
+        "Nagyon szívesen!",
+        "Örülök, hogy segíthettem!",
+        "Nincs mit, bármikor szívesen!",
+        "Szívesen! Örülök, hogy hasznos volt.",
+        "Bármikor, örülök, hogy segíthettem!",
+        "Nagyon szívesen! Bármiben segíthetek még?"
+      ]
+    },
+    {
+      "tag": "információkérés",
+      "patterns": [
+        "Tudnál nekem információt adni?",
+        "Milyen információval szolgálsz?",
+        "Segítenél információval?",
+        "Hogy találom meg az információkat?",
+        "Hol találhatok erről adatokat?",
+        "Milyen információid vannak erről?",
+        "Megosztanád az információkat?",
+        "Szükségem lenne némi információra.",
+        "Adhatnál részleteket?",
+        "Hol tudnék többet megtudni?",
+        "Hogyan juthatok további adatokhoz?",
+        "Milyen információkat tudsz adni nekem?",
+        "Tudnál erről bővebben beszélni?",
+        "Van valami információd erről?",
+        "Hol tudok többet megtudni?",
+        "Adhatnál nekem információkat?",
+        "Mit tudsz erről mondani?",
+        "Hogyan kaphatok részletesebb adatokat?",
+        "El tudod mondani az információkat?",
+        "Tudnál nekem segíteni ezzel kapcsolatban?"
+      ],
+      "responses": [
+        "Miben szeretnél információt kérni?",
+        "Többféle információval tudok szolgálni, mire vagy kíváncsi?",
+        "Segítek szívesen, mire van szükséged?",
+        "Részletezhetnéd, hogy pontosan milyen információra van szükséged?",
+        "Szívesen segítek, kérlek, mondd el pontosabban, mire vagy kíváncsi."
+      ]
+    },
+    {
+      "tag": "megerősítés",
+      "patterns": [
+        "Ez igaz?",
+        "Ez biztos?",
+        "Megerősítenéd?",
+        "Biztos vagy benne?",
+        "Megerősítenéd az információt?",
+        "Biztos így van?",
+        "Elhiszem ezt?",
+        "Ez a helyes információ?",
+        "Ez a pontos adat?",
+        "Valóban így van?",
+        "Ezt biztosra vehetjük?",
+        "Meg tudod erősíteni?",
+        "Ez tényleg igaz?",
+        "Ezt így értetted?",
+        "Megerősíted ezt?",
+        "Valóban ez a helyzet?",
+        "Ez biztosan így van?",
+        "Megerősítheted nekem?",
+        "Biztos ez az információ?",
+        "Ez így van rendben?"
+      ],
+      "responses": [
+        "Igen, biztos vagyok benne.",
+        "Igen, ez helyes információ.",
+        "Ez pontosan így van, megerősíthetem.",
+        "Biztos, nyugodtan támaszkodhatsz erre.",
+        "Igen, a megadott információ helyes."
+      ]
+    },
+    {
+      "tag": "tagadás",
+      "patterns": [
+        "Nem hiszem el.",
+        "Ez nem igaz.",
+        "Nem így van.",
+        "Nem, köszönöm.",
+        "Ezt nem fogadom el.",
+        "Nem értek egyet.",
+        "Ez nem helyes.",
+        "Ez téves információ.",
+        "Nem, nem így van.",
+        "Nem ezt kértem.",
+        "Ez nem megfelelő.",
+        "Nem ezt szerettem volna.",
+        "Ez nem helyes adat.",
+        "Nem igazán.",
+        "Nem fogadom el ezt az információt.",
+        "Ez nem teljesen stimmel.",
+        "Ezt nem tudom elfogadni.",
+        "Ez nem pontos.",
+        "Ez nem tetszik.",
+        "Ezt nem tudom elhinni."
+      ],
+      "responses": [
+        "Sajnálom, ha ez félreértés volt. Tisztázzuk újra.",
+        "Elnézést a kellemetlenségért, miben segíthetek jobban?",
+        "Ha van valami, amivel nem értesz egyet, szívesen tisztázzuk.",
+        "Elnézést, ha félreértés történt, kérlek, pontosítsd a kérdést.",
+        "Sajnálom, ha nem volt egyértelmű. Hogyan segíthetek?"
+      ]
+    },
+    {
+      "tag": "segítség_kérés",
+      "patterns": [
+        "Segítségre van szükségem!",
+        "Tudnál segíteni?",
+        "Hogy tudnál segíteni?",
+        "Kéne egy kis segítség!",
+        "Segítenél nekem?",
+        "Elakadtam, tudnál segíteni?",
+        "Hogy tudsz segíteni?",
+        "Szükségem van segítségre.",
+        "Kérem, segíts!",
+        "Mit tudsz tenni?",
+        "Tudsz segíteni nekem?",
+        "Kérhetek segítséget?",
+        "Segíts kérlek!",
+        "Szükségem van a tanácsodra.",
+        "Tudsz segíteni nekem ebben?",
+        "Kérhetem a segítséged?",
+        "Tudnál irányítani?",
+        "Segítesz, kérlek?",
+        "Segíts, nem tudom, mit tegyek.",
+        "Tudsz adni tanácsot?"
+      ],
+      "responses": [
+        "Persze! Miben tudok segíteni?",
+        "Természetesen! Hogyan segíthetek?",
+        "Igen, szívesen segítek. Mondd, mi a gond?",
+        "Szívesen segítek! Mi a problémád?",
+        "Itt vagyok, hogy segítsek. Miben van szükséged segítségre?",
+        "Persze, mondj el mindent, és megpróbálok segíteni!"
+      ]
+    },
+    {
+      "tag": "foglalás",
+      "patterns": [
+        "Szeretnék egy asztalt foglalni.",
+        "Foglalhatnék egy időpontot?",
+        "Foglalni szeretnék egy asztalt.",
+        "Mikor lehet foglalni?",
+        "Tudnék asztalt foglalni ma estére?",
+        "Foglalhatok asztalt nálatok?",
+        "Hogyan tudok foglalni?",
+        "Szeretnék egy időpontot foglalni.",
+        "Tudnál segíteni a foglalásban?",
+        "Hogyan történik a foglalás?",
+        "Foglalhatok nálatok helyet?",
+        "Van még szabad hely?",
+        "Szeretnék helyet foglalni.",
+        "Foglalhatok egy asztalt?",
+        "Milyen időpontok szabadok?",
+        "Mikor tudok időpontot foglalni?",
+        "Foglalhatok most időpontot?",
+        "Tudok online foglalni?",
+        "Szeretnék előre foglalni egy helyet.",
+        "Előre le lehet foglalni az asztalt?"
+      ],
+      "responses": [
+        "Igen, tudok segíteni a foglalásban. Milyen időpontot szeretnél?",
+        "Milyen időpontra szeretnél foglalni?",
+        "Segítek szívesen a foglalásban. Mikor lenne alkalmas neked?",
+        "Tudok segíteni a foglalásban. Mikor szeretnél jönni?",
+        "Foglalásod rögzítve! Van még más, amiben segíthetek?"
+      ]
+    },
+    {
+      "tag": "rendelés",
+      "patterns": [
+        "Szeretnék rendelni.",
+        "Hogyan tudok rendelni?",
+        "Leadhatok egy rendelést?",
+        "Mit lehet rendelni?",
+        "Rendelhetnék valamit?",
+        "Szeretnék rendelést leadni.",
+        "Hogyan tudok leadni egy rendelést?",
+        "Lehet online rendelni?",
+        "Mit ajánlasz rendelésre?",
+        "Szeretnék rendelni egy pizzát.",
+        "Mi az elérhető rendelési opció?",
+        "Rendelhetek most?",
+        "Hogyan működik a rendelés?",
+        "Rendelni szeretnék ételt.",
+        "Lehetséges most rendelni?",
+        "Mik a rendelési lehetőségek?",
+        "Lehet rendelést kérni?",
+        "Szeretnék online rendelni.",
+        "Hogyan lehet gyorsan rendelni?",
+        "Mik a rendelés feltételei?"
+      ],
+      "responses": [
+        "Milyen rendelést szeretnél leadni?",
+        "Rendelésedet rögzítettem! Van még valami, amit szeretnél?",
+        "Szeretnéd részletezni a rendelésed?",
+        "Igen, tudsz rendelni! Milyen terméket szeretnél?",
+        "A rendelés leadásához kérlek add meg, mit szeretnél."
+      ]
+    },
+    {
+      "tag": "iránykérés",
+      "patterns": [
+        "Hogy jutok el ide?",
+        "Meg tudod mondani, merre kell mennem?",
+        "Hogyan találom meg ezt a helyet?",
+        "Merre van ez a hely?",
+        "Meg tudnád mondani az utat?",
+        "Tudsz segíteni, hogy merre menjek?",
+        "Hol található ez a hely?",
+        "Hogyan jutok el a város központjába?",
+        "Hogyan jutok el a legközelebbi étteremhez?",
+        "Hogyan érek ide?",
+        "Melyik úton kell mennem?",
+        "Melyik irányba menjek?",
+        "Merre található ez az épület?",
+        "Tudnál irányt mutatni?",
+        "Hogyan érem el a célomat?",
+        "Segítenél az útvonalban?",
+        "Merre induljak el?",
+        "Tudnál irányítást adni?",
+        "Hol találom ezt a helyet?",
+        "Melyik út a helyes irány?"
+      ],
+      "responses": [
+        "Hová szeretnél eljutni? Segítek az útvonal megtervezésében.",
+        "Mondd el, hová tartasz, és segítek megtalálni az utat.",
+        "Segíthetek irányt mutatni, mondd, hova szeretnél menni?",
+        "Melyik helyszínre szeretnél eljutni? Segítek megtalálni az irányt.",
+        "Hova szeretnél menni pontosan? Megnézem az útvonalat."
+      ]
+    },
+    {
+      "tag": "időjárás",
+      "patterns": [
+        "Milyen idő van?",
+        "Milyen az időjárás ma?",
+        "Mi lesz az időjárás holnap?",
+        "Hogyan alakul az időjárás?",
+        "Milyen az idő most?",
+        "Hogyan alakul az idő ma?",
+        "Milyen idő várható?",
+        "Esik az eső?",
+        "Süt a nap?",
+        "Hány fok van?",
+        "Hűvös van kint?",
+        "Esni fog ma?",
+        "Meleg van odakint?",
+        "Vihar lesz?",
+        "Lesz szél ma?",
+        "Kell vigyem az esernyőt?",
+        "Hogyan fog változni az időjárás?",
+        "Hideg lesz este?",
+        "Hogyan alakul az időjárás holnap?",
+        "Kint esik az eső?"
+      ],
+      "responses": [
+        "Nézd meg a legfrissebb időjárást az aktuális helyszínen.",
+        "A mai időjárás meleg és napos lesz!",
+        "Ma eső várható, vigyél esernyőt!",
+        "Ma szél várható, ne felejts el kabátot hozni!",
+        "Holnapra napsütést jeleznek, nagyszerű kiránduláshoz!",
+        "Néhány helyen eső várható, legyél óvatos!"
+      ]
+    },
+    {
+      "tag": "panasz",
+      "patterns": [
+        "Szeretnék panaszt tenni.",
+        "Panaszom van.",
+        "Hova fordulhatok a panaszommal?",
+        "Nem vagyok elégedett.",
+        "Szeretném jelezni a problémámat.",
+        "Nem tetszik, ami történt.",
+        "Kifogásom van.",
+        "Problémám van ezzel.",
+        "Hova tehetek panaszt?",
+        "Nem vagyok elégedett a szolgáltatással.",
+        "Nem volt megfelelő a kiszolgálás.",
+        "Szeretnék panaszkodni.",
+        "Hogyan tudok panaszt tenni?",
+        "Panaszt szeretnék benyújtani.",
+        "Nem volt megfelelő a termék.",
+        "Probléma volt a rendelésemmel.",
+        "Szeretnék reklamálni.",
+        "Nem úgy kaptam meg, ahogy ígérték.",
+        "Ez nem az, amit vártam.",
+        "Nem vagyok elégedett ezzel a helyzettel."
+      ],
+      "responses": [
+        "Sajnálom, hogy kellemetlenséged támadt. Segíthetek tisztázni a helyzetet?",
+        "Elnézést kérünk a kellemetlenségért. Hogyan tudunk segíteni?",
+        "Nagyon sajnáljuk, hogy ez történt. Kérlek, oszd meg a részleteket, hogy segíthessünk.",
+        "Sajnáljuk a kellemetlenséget. Kérlek, részletezd a problémádat.",
+        "Elnézést kérünk az okozott kellemetlenségért. Mit tehetünk a probléma megoldása érdekében?"
+      ]
+    },
+    {
+      "tag": "ár_információ",
+      "patterns": [
+        "Mennyibe kerül?",
+        "Mi az ára ennek?",
+        "Milyen árban van?",
+        "Mennyibe fog kerülni?",
+        "Mennyiért lehet megvenni?",
+        "Mi az árlista?",
+        "Milyen árkategóriában mozog?",
+        "Mennyi ennek a díja?",
+        "Milyen áron érhető el?",
+        "Mi az ára ennek a szolgáltatásnak?",
+        "Mennyi a költsége?",
+        "Mennyit kell fizetni érte?",
+        "Mennyibe kerül ez a termék?",
+        "Van valami kedvezmény?",
+        "Mit kell fizetni érte?",
+        "Mennyiért lehet igénybe venni?",
+        "Van valami árkedvezmény?",
+        "Mi az árképzés?",
+        "Tudnál árat mondani?",
+        "Hogyan alakulnak az árak?"
+      ],
+      "responses": [
+        "Az ára jelenleg x forint.",
+        "Ez x forintba kerül.",
+        "Az aktuális ár ennek a terméknek/szolgáltatásnak x forint.",
+        "Az árképzésünk a következő: x forint.",
+        "Jelenlegi áraink alapján x forintba kerül."
+      ]
+    },
+    {
+      "tag": "időpont_egyeztetés",
+      "patterns": [
+        "Egyeztethetnénk egy időpontot?",
+        "Mikor lenne megfelelő az időpont?",
+        "Szeretnék időpontot egyeztetni.",
+        "Hogyan tudunk időpontot egyeztetni?",
+        "Mikor ér rá?",
+        "Melyik időpontban lenne jó?",
+        "Mikor lehetne találkozni?",
+        "Szeretném megbeszélni az időpontot.",
+        "Tudunk időpontot egyeztetni?",
+        "Mikor egyeztethetünk?",
+        "Mikor lenne önnek megfelelő?",
+        "Egyeztethetünk időpontot?",
+        "Mikorra tegyük a találkozót?",
+        "Mikorra tud időpontot ajánlani?",
+        "Szeretnék egy időpontot megbeszélni.",
+        "Van szabad időpontod?",
+        "Milyen időpontok elérhetők?",
+        "Mikor találkozhatunk?",
+        "Mikor lenne alkalmas időpont?",
+        "Egyeztethetünk egy találkozót?"
+      ],
+      "responses": [
+        "Mikor lenne megfelelő az időpont?",
+        "Milyen időpontot javasolsz?",
+        "Nézzük meg a rendelkezésre álló időpontokat.",
+        "Mikorra szeretnéd beállítani az időpontot?",
+        "Van egy szabad időpontom x napon, megfelelő lenne?",
+        "Egyeztessünk egy időpontot, mikor lenne alkalmas neked?",
+        "Több időpont is elérhető, kérlek, mondd meg, mikor lenne jó."
+      ]
+    },
+    {
+      "tag": "vicc",
+      "patterns": [
+        "Mondj egy viccet!",
+        "Tudsz viccet mondani?",
+        "Mesélnél egy viccet?",
+        "Van valami vicces?",
+        "Tudsz valami jó viccet?",
+        "Mesélsz egy jó viccet?",
+        "Mondanál egy humoros viccet?",
+        "Hallhatnék egy viccet?",
+        "Mondj valami vicceset!",
+        "Nevettetnél meg?",
+        "Tudsz valami tréfát?",
+        "Van valami jó tréfa?",
+        "Tudsz tréfálkozni?",
+        "Mondj egy poént!",
+        "Mesélj valami szórakoztatót!",
+        "Mondj egy humoros poént!",
+        "Mesélj egy jó poént!",
+        "Nevettess meg egy viccel!",
+        "Mondj valami poénosat!",
+        "Tudsz egy jó viccet?"
+      ],
+      "responses": [
+        "Miért nem lehet a bicikli állva maradni? Mert kétkeréken gurul!",
+        "Miért nem játszhat a zongorista sakkozni? Mert mindig túlzottan a billentyűkre koncentrál!",
+        "Mi a programozók kedvenc itala? A 'Java'.",
+        "Hogy hívják a tehén sportcipőjét? Marcipő!",
+        "Miért nem foglal el a macska helyet a laptop előtt? Mert mindig az egeret akarja elkapni!"
+      ]
+    },
+    {
+      "tag": "beszélgetés_folytatása",
+        "patterns": [
+            "Mesélj még!",
+            "Folytassuk a beszélgetést!",
+            "Kíváncsi vagyok a folytatásra.",
+            "Mondj még valamit erről!",
+            "Tovább mesélnél?",
+            "Beszélhetünk még erről?",
+            "Érdekel a folytatás.",
+            "Mit tudsz még mondani erről?",
+            "Mesélsz még erről?",
+            "Beszéljünk még erről!"
+        ],
+        "responses": [
+            "Persze, folytatom! Miről szeretnél hallani?",
+            "Szívesen beszélek tovább! Melyik rész érdekel jobban?",
+            "Mesélek még! Melyik rész érdekel különösen?",
+            "Természetesen, itt a folytatás!",
+            "Örömmel folytatom! Mit szeretnél tudni?",
+            "Mondok még valamit erről!",
+            "Szívesen beszélek még róla!",
+            "Jó, akkor mesélek még!",
+            "Rendben, elmondom a folytatást!",
+            "Örömmel folytatom a beszélgetést!"
+        ]
+    },
+    {
+      "tag": "jólét_kérdezés",
+      "patterns": [
+          "Jól érzed magad?",
+          "Minden rendben van?",
+          "Minden oké nálad?",
+          "Rendben vagy?",
+          "Remélem, jól vagy!",
+          "Hogy telik a napod?",
+          "Nem érzed magad rosszul?",
+          "Remélem, minden jól alakul nálad.",
+          "Minden oké?",
+          "Jól vagy?"
+      ],
+      "responses": [
+          "Igen, köszönöm, jól vagyok!",
+          "Minden rendben, köszönöm az érdeklődést!",
+          "Köszönöm, jól érzem magam!",
+          "Igen, minden rendben van, köszönöm.",
+          "Jól vagyok, remélem, te is!",
+          "Nagyon kedves, köszönöm, rendben vagyok.",
+          "Igen, jól érzem magam, köszönöm.",
+          "Minden tökéletes, köszönöm az aggódást!",
+          "Remekül vagyok, remélem, te is jól vagy!",
+          "Igen, minden oké, hálás vagyok a kérdésedért."
+      ]
+    },
+    {
+      "tag": "érdeklődés",
+      "patterns": [
+          "Mi újság veled?",
+          "Hogy vagy mostanában?",
+          "Hogy telik a napod?",
+          "Minden rendben van nálad?",
+          "Hogy mennek a dolgok?",
+          "Hogy érzed magad?",
+          "Milyen volt a hétvégéd?",
+          "Van valami új hír?",
+          "Mit csinálsz mostanában?",
+          "Mesélj, mi történt veled mostanában."
+      ],
+      "responses": [
+          "Köszönöm, jól vagyok! És veled mi újság?",
+          "Minden rendben, köszönöm! Hogy vagy?",
+          "Nagyon jól érzem magam, köszönöm az érdeklődést!",
+          "Köszönöm, semmi különös, csak a megszokott!",
+          "Remekül vagyok! Mesélj, nálad mi újság?",
+          "Egész jól alakul minden, köszönöm!",
+          "Nagyon elfoglalt vagyok mostanában, de minden rendben!",
+          "Kicsit stresszes a napom, de megvagyok, köszönöm!",
+          "Minden rendben, most egy kicsit lazítok.",
+          "Jól vagyok, köszönöm! Hogy vagy te?"
+      ]
+    },
+    {
+      "tag": "bocsánatkérés",
+      "patterns": [
+          "Elnézést, hibáztam.",
+          "Sajnálom, hogy késlekedtem.",
+          "Bocsánat, nem így akartam.",
+          "Sajnálom, hogy ez történt.",
+          "Bocsánat a kellemetlenségért.",
+          "Ne haragudj, hibáztam.",
+          "Remélem, nem gond, hogy elrontottam.",
+          "Nagyon sajnálom, hogy ez történt.",
+          "Bocsánatot kérek a félreértésért.",
+          "Remélem, meg tudunk bocsátani egymásnak."
+      ],
+      "responses": [
+          "Semmi gond, mindenkivel előfordul.",
+          "Nem probléma, ne aggódj miatta.",
+          "Ne is törődj vele, minden rendben.",
+          "El van nézve, ilyesmi megesik.",
+          "Rendben van, megértem.",
+          "Ne aggódj, nem haragszom.",
+          "Mindenki hibázik, ez természetes.",
+          "Nem kell bocsánatot kérni, nincs harag.",
+          "Ez bárkivel megeshet, ne zavartasd magad.",
+          "Minden rendben, csak folytassuk onnan, ahol tartottunk."
+      ]
+    },
+    {
+      "tag": "dicséret",
+      "patterns": [
+          "Nagyon jó munkát végeztél!",
+          "Ez tényleg szuper volt!",
+          "Fantasztikus vagy!",
+          "Ügyes vagy!",
+          "Nagyon tetszik, amit csináltál.",
+          "Ez kiváló munka!",
+          "Nagyon büszke vagyok rád!",
+          "Nagyon szép munka volt!",
+          "Ez nagyon tetszik nekem.",
+          "Csodálatos vagy!"
+      ],
+      "responses": [
+          "Köszönöm szépen! Nagyon örülök, hogy így gondolod.",
+          "Hálás vagyok a kedves szavaidért!",
+          "Ez nagyon sokat jelent nekem, köszönöm!",
+          "Örülök, hogy tetszik!",
+          "Nagyon boldog vagyok, hogy értékeled!",
+          "Köszönöm, igazán inspiráló vagy!",
+          "Nagyon örülök, hogy elégedett vagy.",
+          "Köszönöm a biztatást!",
+          "Nagyon hálás vagyok, hogy értékeled a munkámat.",
+          "Ez igazán motivál, köszönöm szépen!"
+      ]
+  },
+  {
+      "tag": "bátorítás",
+      "patterns": [
+          "Meg tudod csinálni!",
+          "Ne add fel!",
+          "Tudom, hogy sikerülni fog!",
+          "Mindig van megoldás.",
+          "Higgy magadban!",
+          "Te képes vagy rá.",
+          "Csak folytasd, menni fog!",
+          "Bízz magadban!",
+          "Minden rendben lesz.",
+          "Csak egy lépés kell hozzá!"
+      ],
+      "responses": [
+          "Köszönöm, tényleg motiváló vagy!",
+          "Nagyon hálás vagyok a biztatásért.",
+          "Ez tényleg segít, köszönöm!",
+          "Örülök, hogy mellettem vagy.",
+          "Nagyon jól esik ez most, köszönöm.",
+          "Ez igazán ad egy kis lendületet, köszi!",
+          "Köszönöm, hogy hiszel bennem!",
+          "Nagyon hálás vagyok a támogatásodért!",
+          "Ezek a szavak tényleg erőt adnak.",
+          "Köszönöm, hogy mellettem állsz."
+      ]
+    },
+    {
+      "tag": "egyetértés",
+      "patterns": [
+          "Teljesen egyetértek veled!",
+          "Pontosan így gondolom én is.",
+          "Teljesen igazad van.",
+          "Úgy van, ahogy mondod!",
+          "Ez pontosan így van!",
+          "Teljes mértékben egyetértek.",
+          "Ezzel teljesen egyet tudok érteni.",
+          "Ez így van!",
+          "Pontosan ezt akartam mondani.",
+          "Teljes mértékben igazad van."
+      ],
+      "responses": [
+          "Örülök, hogy egyetértünk!",
+          "Nagyon jó, hogy hasonlóan gondolkodunk.",
+          "Igen, teljesen egy hullámhosszon vagyunk!",
+          "Jó érzés, hogy egyetértesz velem!",
+          "Szuper, hogy egyet gondolunk!",
+          "Ez jó érzés, köszönöm!",
+          "Nagyszerű, hogy így látod te is!",
+          "Köszönöm, hogy támogatod a véleményemet!",
+          "Örülök, hogy te is így látod.",
+          "Igen, jó érzés hasonló nézőponton lenni!"
+      ]
+  },
+  {
+      "tag": "várakozás",
+      "patterns": [
+          "Várom már nagyon!",
+          "Alig várom!",
+          "Nagyon várom már a következő találkozást.",
+          "Már számolom a napokat!",
+          "Nagyon várom, hogy újra lássalak.",
+          "Nagyon izgatott vagyok!",
+          "Alig bírom kivárni!",
+          "Nagyon várom, hogy beszéljünk.",
+          "Nagyon izgatott vagyok a következő alkalom miatt.",
+          "Szóval már nagyon várom!"
+      ],
+      "responses": [
+          "Ez igazán jó érzés, én is várom!",
+          "Nagyon izgatott vagyok én is!",
+          "Örülök, hogy így várakozol!",
+          "Nagyon jó ezt hallani, köszönöm!",
+          "Én is alig várom!",
+          "Nagyon megtisztelő, hogy így várakozol.",
+          "Már én is nagyon izgatott vagyok!",
+          "Igazán várom már a találkozást!",
+          "Nagyon örülök, hogy ennyire izgatott vagy!",
+          "Én is nagyon várom!"
+      ]
+    }
+  ]
+}
